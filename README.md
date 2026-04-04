@@ -1,6 +1,6 @@
-Friday on awakening...
+Saturday on awakening...
 
-Woke up wanting more sleep.
+Woke up after sleeping in a bit.
 
 Immediately asked God, "Please direct my thinking. Let my thoughts be divorced from self-pity, dishonest or self-seeking motives, that I might have a more contemplative mind."(p.86)
 
@@ -10,7 +10,7 @@ Immediately asked God, "Please direct my thinking. Let my thoughts be divorced f
 
 "May I be kind, caring, compassionate, understanding and loving toward all today."(p.86)
 
-Continued to rest and think about the twenty-for hours ahead.
+Continued to rest and think about the twenty-for hours ahead.(p.86)
 
 Rolled out of bed to my knees...
 
@@ -22,18 +22,20 @@ May I do your will always."(p.63)
 
 Got up and took my meds.
 
-Read page 102 of "Daily reflections" and page 94 of "Courage to Change".
+Got a call from my mother and talked for a bit.
+
+Read page 103 of "Daily reflections" and page 95 of "Courage to Change".
 
 Said a few set prayers that I selected and memorized that emphasize the principals discussed in the big book.(p. 87)
 (serenity prayer, knots prayer and peace prayer.)
 
 "Grant me freedom from self will.  Show me what my next step is to be and grant me the ability to take care of it."(p.87)
 
-"May your will be done for those sick and suffering.  Please show me what I can do to help."
+"May your will be done for those sick and suffering.  Please show me what I can do to help."(p.84)
 
-"Help me be effective in bringing others to you so they can find peace and comfort in their own lives."
+"Help me be effective in bringing others to you so they can find peace and comfort in their own lives."(p.84)
 
-"Thank you for the life I have today and the people in it."
+"Thank you for the life I have today and the people in it."(p.84)
 
 "What can I can do for the man who is still sick?"(p.164)
 
@@ -43,9 +45,9 @@ Said a few set prayers that I selected and memorized that emphasize the principa
 
 Checked and responded to messages and sent out "lists".
 
-Going to get ready and go to the gym before work.
+Going to do laundry and make calls to family.
 
-Top of Texas for chip night.
+Will probably do some online course work.
 
 Attending Sober AF.
 
