@@ -34,9 +34,10 @@ Install requisites and configure:
    ```  
     
   Run pkg install termux-api AFTER the termux-API app in installed on Android  
-    ```
-      ~ $ pkg install termux-api     
-    ```  
+  
+   ```
+   ~ $ pkg install termux-api     
+   ```  
     
   Termux-API:  
     Open and grant permissions - GrapheneOS required to allow restricted permissions to enable draw over other apps (required for termux-toast, which is optional)  
