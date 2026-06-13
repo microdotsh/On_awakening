@@ -51,6 +51,7 @@ Edit script to accommodate your directory structure and naming conventions (This
   NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/path/to/numbers_to_send_to_file.ext"  
 
 Assuming script is in Download of internal storage, make script executable & copy script to ~/.shortcuts - assuming script is in "Download" folder (internal storage | sdcard | storage/emulated/0)  
+
 In termux: 
 
 ```
