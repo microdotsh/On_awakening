@@ -28,22 +28,23 @@ SET UP ENVIRONMENT:
 Install requisites and configure:  
   Termux:
     Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
-    ```text
-    ~ $ termux-setup-storage
-    ```
-    ```text
+    ```~ $ termux-setup-storage```  
     Run pkg install termux-api AFTER the termux-API app in installed on Android  
-    ```
+    ```~ $ pkg install termux-api```  
+    
   Termux-API:  
     Open and grant permissions - GrapheneOS required to allow restricted permissions to enable draw over other apps (required for termux-toast, which is optional)  
+    
 download script  
-Edit script to accommodate your directory structure and naming conventions  
+
+Edit script to accommodate your directory structure and naming conventions (This could be done more easily with a text editor on PC or mobile device rather than with nano inside termux)  
   If your message and recipients files are stored in the default "Documents" folder on internal storage, then adjust the following lines:  
   MSG_FILE="$HOME/storage/shared/doc/aa/on_awakening.txt" --> "MSG_FILE=$HOME/storage/shared/path/to/content_to_send.ext"  
   NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/path/to/numbers_to_send_to_file.ext"  
 
-Assuming script is in Download of internal storage, make script executable if not already.  
-Copy script to ~/.shortcuts (assuming script is in "Download" folder on internal storage - sdcard - storage/emulated/0)  
+Assuming script is in Download of internal storage, make script executable.  
+
+Copy script to ~/.shortcuts - assuming script is in "Download" folder (internal storage | sdcard | storage/emulated/0)  
 In termux: 
 ```text
   ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh
