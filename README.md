@@ -26,6 +26,7 @@ OPTIONAL:
 SET UP ENVIRONMENT:
 
 Install requisites and configure:  
+
   Termux:  
   Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
     
