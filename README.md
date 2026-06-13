@@ -5,9 +5,11 @@ I created a BASH script to read a number file stored on my Android device and se
 Scripts reads a message file for content to distribute
 
 Reads a recipient file in the following format:  
+  ```text
   +1234567890
   +2345678901
   +3456789012
+  ```
 
 Number file gets shuffled to randomize order.  
 DELAY is randomized between sends.  
