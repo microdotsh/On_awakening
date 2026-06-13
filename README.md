@@ -26,13 +26,17 @@ OPTIONAL:
 SET UP ENVIRONMENT:
 
 Install requisites and configure:  
-  Termux:
-    Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
-    ```~ $ termux-setup-storage```  
-
-    Run pkg install termux-api AFTER the termux-API app in installed on Android  
+  Termux:  
+  Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
     
-    ```~ $ pkg install termux-api```  
+   ```
+   ~ $ termux-setup-storage     
+   ```  
+    
+  Run pkg install termux-api AFTER the termux-API app in installed on Android  
+    ```
+      ~ $ pkg install termux-api     
+    ```  
     
   Termux-API:  
     Open and grant permissions - GrapheneOS required to allow restricted permissions to enable draw over other apps (required for termux-toast, which is optional)  
@@ -48,7 +52,7 @@ Assuming script is in Download of internal storage, make script executable.
 
 Copy script to ~/.shortcuts - assuming script is in "Download" folder (internal storage | sdcard | storage/emulated/0)  
 In termux: 
-```text
+```
   ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh
   ~ $ cp ~/storage/shared/Download/send_awakening.sh ~/.shortcuts
 ```
