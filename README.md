@@ -29,7 +29,9 @@ Install requisites and configure:
   Termux:
     Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
     ```~ $ termux-setup-storage```  
+
     Run pkg install termux-api AFTER the termux-API app in installed on Android  
+    
     ```~ $ pkg install termux-api```  
     
   Termux-API:  
