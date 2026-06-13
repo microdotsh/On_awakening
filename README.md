@@ -49,13 +49,11 @@ Edit script to accommodate your directory structure and naming conventions (This
   MSG_FILE="$HOME/storage/shared/doc/aa/on_awakening.txt" --> "MSG_FILE=$HOME/storage/shared/path/to/content_to_send.ext"  
   NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/path/to/numbers_to_send_to_file.ext"  
 
-Assuming script is in Download of internal storage, make script executable.  
-
-Copy script to ~/.shortcuts - assuming script is in "Download" folder (internal storage | sdcard | storage/emulated/0)  
+Assuming script is in Download of internal storage, make script executable & copy script to ~/.shortcuts - assuming script is in "Download" folder (internal storage | sdcard | storage/emulated/0)  
 In termux: 
+
 ```
-  ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh
-  ~ $ cp ~/storage/shared/Download/send_awakening.sh ~/.shortcuts
+  ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh && cp ~/storage/shared/Download/send_awakening.sh ~/.shortcuts
 ```
 
 Use Termux-Widget to launch script from home screen.
