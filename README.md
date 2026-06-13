@@ -3,38 +3,42 @@ This project started when trying to distribute content via SMS to so many recipi
 I created a BASH script to read a number file stored on my Android device and send the content of a seperate text file with some extra steps to avoid carrier filtering of automated distribution.
 
 Scripts reads a message file for content to distribute
-Reads a recipient file in the following format:
+
+Reads a recipient file in the following format:  
   +1234567890
   +2345678901
   +3456789012
 
-Number file gets shuffled to randomize order.
-
-DELAY is randomized between sends.
-
+Number file gets shuffled to randomize order.  
+DELAY is randomized between sends.  
 EXTRA_LINE is added and randomized to help avoid duplicate content.
 
 REQUSITES:
-  Android
-  Termux
-  Termux-API
-
-OPTIONAL:
-Tewrmux-widget
+  Android  
+  Termux  
+  Termux-API  
+OPTIONAL:  
+  Termux-widget
 
 SET UP ENVIRONMENT:
 
-Install requisites and download script
-Run "termux-setup-storage" in Termux
-Edit script to accommodate your directory structure and naming conventions
-  If your message and recipients files are stored in the default "Documents" folder on internal storage, then adjust the following lines:
-  MSG_FILE="$HOME/storage/shared/doc/aa/on_awakening.txt" --> MSG_FILE=$HOME/storage/shared/documents/content.txt
-  NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/documents/numberss.txt"
+Install requisites and configure:  
+  Termux:
+    Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
+    Run pkg install termux-api AFTER the termux-API app in installed on Android  
+  Termux-API:  
+    Open and grant permissions - GrapheneOS required to allow restricted permissions to enable draw over other apps (required for termux-toast, which is optional)  
+download script  
+Edit script to accommodate your directory structure and naming conventions  
+  If your message and recipients files are stored in the default "Documents" folder on internal storage, then adjust the following lines:  
+  MSG_FILE="$HOME/storage/shared/doc/aa/on_awakening.txt" --> "MSG_FILE=$HOME/storage/shared/path/to/content_to_send.ext"  
+  NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/path/to/numbers_to_send_to_file.ext"  
 
-Assuming script is in Downloads of internal storage, make script executable if not already.
-  ~ $ chmod +x ~/storage/downloads/send_awakening.sh
-Copy script to ~/.shortcuts (assuming script is in "Downloads" folder on internal storage "sdcard":
-  ~ $ cp ~/storage/download/send_awakening.sh ~/.shortcuts
+Assuming script is in Download of internal storage, make script executable if not already.  
+In termux:  
+  ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh  
+Copy script to ~/.shortcuts (assuming script is in "Download" folder on internal storage - sdcard - storage/emulated/0)
+  ~ $ cp ~/storage/shared/Download/send_awakening.sh ~/.shortcuts
 Use Termux-Widget to launch script from home screen.
 
 
