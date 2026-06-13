@@ -28,7 +28,12 @@ SET UP ENVIRONMENT:
 Install requisites and configure:  
   Termux:
     Run termux-setup-storage - This will expose internal storage and allow acces via ~/storage/shared ($HOME/storage/shared)  
+    ```text
+    ~ $ termux-setup-storage
+    ```
+    ```text
     Run pkg install termux-api AFTER the termux-API app in installed on Android  
+    ```
   Termux-API:  
     Open and grant permissions - GrapheneOS required to allow restricted permissions to enable draw over other apps (required for termux-toast, which is optional)  
 download script  
@@ -38,12 +43,14 @@ Edit script to accommodate your directory structure and naming conventions
   NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/path/to/numbers_to_send_to_file.ext"  
 
 Assuming script is in Download of internal storage, make script executable if not already.  
-In termux:  
-  ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh  
-Copy script to ~/.shortcuts (assuming script is in "Download" folder on internal storage - sdcard - storage/emulated/0)
+Copy script to ~/.shortcuts (assuming script is in "Download" folder on internal storage - sdcard - storage/emulated/0)  
+In termux: 
+```text
+  ~ $ chmod +x ~/storage/shared/Download/send_awakening.sh
   ~ $ cp ~/storage/shared/Download/send_awakening.sh ~/.shortcuts
-Use Termux-Widget to launch script from home screen.
+```
 
+Use Termux-Widget to launch script from home screen.
 
 Ultimately, because the content was so much, I decided to use the index.html here for the content, add pages and distribute the link instead.
 
