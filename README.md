@@ -14,11 +14,12 @@ DELAY is randomized between sends.
 EXTRA_LINE is added and randomized to help avoid duplicate content.
 
 REQUSITES:
-  Android  
-  Termux  
-  Termux-API  
+    Android  
+    Termux  
+    Termux-API  
+    
 OPTIONAL:  
-  Termux-widget
+    Termux-widget
 
 SET UP ENVIRONMENT:
 
