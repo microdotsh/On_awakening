@@ -45,8 +45,10 @@ Install requisites and configure:
     
 download script  
 
-Edit script to accommodate your directory structure and naming conventions (This could be done more easily with a text editor on PC or mobile device rather than with nano inside termux)  
-  If your message and recipients files are stored in the default "Documents" folder on internal storage, then adjust the following lines:  
+Edit script to accommodate your directory structure and naming conventions (This could be done more easily with a text editor on PC or mobile device rather than with something like nano inside termux)  
+
+If your message and recipients files are stored in the default "Documents" folder on internal storage, then adjust the following lines:  
+
   MSG_FILE="$HOME/storage/shared/doc/aa/on_awakening.txt" --> "MSG_FILE=$HOME/storage/shared/path/to/content_to_send.ext"  
   NUMBER_FILE="$HOME/storage/shared/doc/aa/recipients.txt" --> NUMBER_FILE="$HOME/storage/path/to/numbers_to_send_to_file.ext"  
 
