@@ -12,7 +12,7 @@ Reads a recipient file in the following format:
   ```
 
 Number file gets shuffled to randomize order.  
-DELAY is randomized between sends.  
+DELAY is randomized between sends and has a cool off period for every 10 recipients.  
 EXTRA_LINE is added and randomized to help avoid duplicate content.
 
 REQUSITES:
